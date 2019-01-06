@@ -13,7 +13,7 @@ public class BodyMassIndex{
         System.out.println("Enter your weight in pounds.");
         weight = scnr.nextInt();
 
-
+        //PT -- name these numbers, just like you did for PI. -1
         double meters = height * 0.0254;
         double kilograms = weight * 0.453592;
 
