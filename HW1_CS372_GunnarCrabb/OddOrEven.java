@@ -21,6 +21,7 @@ public class OddOrEven{
             }
         }
         else {
+            //PT -- loop for invalid values until you get a valid one. -1
             System.out.println("Invalid value.");
         }
     }
