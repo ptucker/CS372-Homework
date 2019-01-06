@@ -37,6 +37,8 @@ public class Employee {
     public void changeInManagement(String newBoss) {
         boss = newBoss;
     }
+    
+    //PT -- consider overriding toString()
 
     //ID and hire date cannot be changed once created since those are concrete once the employee is hired.
 
