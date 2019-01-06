@@ -42,7 +42,7 @@ public class Date{
     }
 
     public void setDay(int newDay) {
-
+        //PT -- since this is the same as in the constructor, maybe make a function with this code?
         if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
             assert(newDay >= 1 && newDay <= 31);
         }
