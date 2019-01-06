@@ -19,6 +19,7 @@ public class StringToInteger{
             for (int i = 0; i < x.length(); i++) {
                 y *= 10;
                 c = x.charAt(i);
+                //PT -- what if x.charAt(i) isn't a digit?. -1
                 y += Character.getNumericValue(c);
             }
             System.out.println("has a length of " + x.length());
