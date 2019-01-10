@@ -1,4 +1,4 @@
-
+//PT -- missing javadoc. -2
 public abstract class Building {
     protected String name;
     protected int address;
@@ -9,6 +9,9 @@ public abstract class Building {
         lastAddress++;
     }
 
+    //PT -- these should just be abstract functions, and not empty functions
+    // abstract void populate(Person p);
+    // -2
     public void populate(Person p){
 
     }
