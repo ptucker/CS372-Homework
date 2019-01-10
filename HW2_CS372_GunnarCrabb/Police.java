@@ -1,3 +1,6 @@
+//PT -- missing javadoc. -2
+
+
 enum Role {
     Patrol, Sargent, Captain, Chief;
 }
@@ -8,6 +11,8 @@ public class Police extends Person implements Employee {
     private Role role;
 
     public Police() {
+        //PT -- call the base constructor here:
+        // super();
         Name = "Cop";
         Age = 25;
         role = Role.Patrol;
@@ -15,6 +20,8 @@ public class Police extends Person implements Employee {
     }
 
     public Police(String name, int age, Role r) {
+        //PT -- call the base constructor here:
+        // super(name, age, role);
         Name = name;
         Age = age;
         role = r;
