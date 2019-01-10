@@ -1,3 +1,5 @@
+//PT -- missing javadoc. -2
+
 enum Type {
     Person, Kid, Police, Teacher;
 }
@@ -20,7 +22,7 @@ public class Person {
 
     public Person(String name, int age) {
         Name = name;
-        Age = age;
+        Age = age; //PT -- validate age. -1
         PhoneNumber = lastNumber;
         lastNumber++;
     }
