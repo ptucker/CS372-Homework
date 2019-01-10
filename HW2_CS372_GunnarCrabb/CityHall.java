@@ -1,3 +1,4 @@
+//PT -- missing javadoc. -2
 
 public class CityHall extends Building{
     private String Occupants[] = new String[20];
