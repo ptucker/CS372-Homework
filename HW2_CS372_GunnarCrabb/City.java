@@ -11,6 +11,10 @@ public class City {
 
         for (Person p : people) {
             System.out.printf("%s\n", p.toString());
+
+            for (Building b : buildings) {
+                b.populate(p);
+            }
         }
 
         for (Building b : buildings) {
@@ -22,6 +26,12 @@ public class City {
                 System.out.printf("%s is paid for their hard work.\n", p.getName());
             }
         }
+
+        for (Building b : buildings) {
+            b.showOccupants();
+        }
+
+        
 
     }
 }

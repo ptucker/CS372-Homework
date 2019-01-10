@@ -8,6 +8,7 @@ public class Kid extends Person {
         Age = 10;
         favoriteCandy = "M&Ms";
         atSchool = false;
+        type = Type.Kid;
     }
 
     public Kid(String name, int age, String candy, Boolean school) {
@@ -15,6 +16,7 @@ public class Kid extends Person {
         Age = age;
         favoriteCandy = candy;
         atSchool = school;
+        type = Type.Kid;
     }
 
     public void goToSchool() {

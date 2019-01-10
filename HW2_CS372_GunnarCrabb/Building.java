@@ -9,9 +9,18 @@ public abstract class Building {
         lastAddress++;
     }
 
+    public void populate(Person p){
+
+    }
+
     public String toString() {
         return String.format("Building name: %s, Building Address: %s", name, address);
     }
+
+    public void showOccupants() {
+        
+    }
+
 
 
 }

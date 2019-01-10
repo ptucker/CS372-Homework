@@ -10,6 +10,7 @@ public class Teacher extends Person implements Employee {
         Age = 40;
         GradeLevel = 12;
         Certification = "yes";
+        type = Type.Teacher;
     }
 
     public Teacher(String name, int age, int grade, String cert) {
@@ -17,6 +18,7 @@ public class Teacher extends Person implements Employee {
         Age = age;
         GradeLevel = grade;
         Certification = cert;
+        type = Type.Teacher;
     }
 
     public Boolean Employed(Employee p) {

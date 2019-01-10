@@ -11,12 +11,14 @@ public class Police extends Person implements Employee {
         Name = "Cop";
         Age = 25;
         role = Role.Patrol;
+        type = Type.Police;
     }
 
     public Police(String name, int age, Role r) {
         Name = name;
         Age = age;
         role = r;
+        type = Type.Police;
     }
 
     public Boolean Employed(Employee p) {
