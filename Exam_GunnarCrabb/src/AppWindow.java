@@ -1,3 +1,21 @@
+/*
+FEEDBACK
+
+Read from the file correctly: 20/20%
+Implement class hierarchy correctly: 20/20%
+Populate appropriate data structures with shape data: 15/15%
+Show list of shapes correctly: 15/15%
+Show specific shape properties correctly: 10/15%
+Well-structured, well-commented code: 7/15%
+
+
+Comments:
+  Shape doesn't need to define toString since it's on Object
+  Why are you using SWT? -- I can't compile this
+  You're reading C:\\Users\\rannu\\Desktop\\shapes.json. Is your machine name rannu?
+  No comments
+*/
+
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Event;
 import org.eclipse.swt.widgets.Shell;
